@@ -32,6 +32,6 @@ MFA por código enviado por e-mail obrigatório para Administradores e Organizad
 Achados e evidências em docs/verification apenas quando executados. Nunca declarar PASS por análise documental.
 
 ## Decisões posteriores PD-010
-Prevalece a [consolidação ADR-011](../adr/ADR-011-consolidacao-pd-010.md) sobre os trechos anteriores sob revisão: sessões sem duração máxima/inatividade em todos os perfis; título 100–200; número institucional anual pelo ano da reunião; correção de e-mail da mesma identidade com bloqueio de colisão e revogação; distribuição de avisos aprovada; fim exclusivo dos prazos. Correção de data para outro ano ainda pendente. Estas são especificações, não evidências de implementação.
+Prevalece a [consolidação ADR-011](../adr/ADR-011-consolidacao-pd-010.md) sobre os trechos anteriores sob revisão: sessões sem duração máxima/inatividade em todos os perfis; título 100–200; número institucional anual pelo ano da reunião; correção de e-mail da mesma identidade com bloqueio de colisão e revogação; distribuição de avisos aprovada; fim exclusivo dos prazos; correção entre anos preserva o número original, com divergência visível e auditoria, sem renumeração. Estas são especificações, não evidências de implementação.
 
 

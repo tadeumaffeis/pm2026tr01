@@ -872,9 +872,9 @@ As decisões abaixo substituem as descrições anteriores que as tratavam como a
 - Prazos de convites e manifestações: fim exclusivo; instante do servidor igual ao vencimento já impede aceitar/recusar convite e registrar/alterar manifestação, conforme o prazo. Preservada a regra de lembrete imediato às 23h quando o aceite for elegível.
 
 ### Complemento ainda necessário
-A data da reunião é corrigível enquanto o processo está aberto, mas seu número agora incorpora o ano da ocorrência e é imutável. Falta decidir o comportamento de uma correção que mude o ano: preservar número original apesar da divergência; impedir a correção entre anos; ou outra regra explícita. Não renumerar por inferência. O catálogo concreto de eventos deverá ser conferido contra a distribuição aprovada antes do fechamento técnico da TASK-001.
+A data da reunião é corrigível enquanto o processo está aberto, mas seu número incorpora o ano da ocorrência e é imutável. Decisão: se a correção mudar o ano, preservar o número original, mesmo com divergência visível entre o ano do número e a data corrigida; não renumerar nem reutilizar, e auditar a correção. O catálogo concreto de eventos deverá ser conferido contra a distribuição aprovada antes do fechamento técnico da TASK-001.
 
-PD-010: PARCIALMENTE DEFINIDA — seis decisões registradas; complemento sobre correção do ano pendente. TASK-001 permanece BLOCKED; PD-006/007/011 e ausência de Git não foram resolvidas nesta interação.
+PD-010: DEFINIDA quanto às sete decisões registradas, incluindo correção entre anos. TASK-001 permanece BLOCKED por PD-006/007/011 e contratos técnicos restantes.
 
 
 
