@@ -123,6 +123,12 @@ Análise PD-007: 25 MiB e até 11 arquivos por versão aprovados; proposta de ve
 
 Complemento PD-006: equipe de TI verifica/autoriza recuperação do único Administrador por arquivos de configuração; responsável e meio operacional definidos, detalhamento técnico pendente em ADR-012. Nenhum software alterado; TASK-001 permanece BLOCKED. Resumo: [validation/avulsa-responsavel-pd-006_2026-10-01_15-02-18.md](validation/avulsa-responsavel-pd-006_2026-10-01_15-02-18.md).
 
+Execução da Etapa 001 do workflow gerado em 2026-10-05: diagnóstico de recontextualização concluído (WF-001, 4/4 critérios documentados), sem alteração de contratos ou software. TASK-001 permanece BLOCKED por DoR incompleta e pendências PD-006/007/010/011. Branch: chore/avulsa-prompt-task-000-inicio; commits: nenhum. Incidental Changes: NONE. Resumo: [validation/TASK-001_2026-10-05_14-18-00.md](validation/TASK-001_2026-10-05_14-18-00.md).
+
+Execução da Etapa 002 em 2026-10-05: propostas documentais para PD-010/PD-007/PD-006 e pesquisa oficial preliminar de PD-011 registradas em [docs/architecture/task-001-etapa-002-pesquisa.md](docs/architecture/task-001-etapa-002-pesquisa.md). WF-002 BLOCKED (1/5 critérios plenamente concluído; 1 parcial; 4 pendentes). Nenhum pacote, scanner, banco ou software executado; Incidental Changes: NONE. Resumo: [validation/TASK-001_2026-10-05_14-32-00.md](validation/TASK-001_2026-10-05_14-32-00.md).
+
+Decisão posterior do usuário para PD-010: aplicar a alternativa 1. Se a correção da data mudar o ano, preservar o número original, mesmo com divergência visível entre o ano do número e a data corrigida; não renumerar nem reutilizar e auditar a correção. A pendência 1 do WF-002 está resolvida; PD-006/007/011, contratos técnicos e DoR permanecem pendentes. Artefatos atualizados: ADR-011, README e contratos de arquitetura. Incidental Changes: NONE.
+
 ### TASK-002 — Preparar estrutura e ferramentas
 
 #### Status
