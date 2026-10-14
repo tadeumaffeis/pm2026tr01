@@ -1,7 +1,7 @@
 # ADR-011 — Consolidação das respostas da PD-010
 
 ## Status
-ACCEPTED para as seis decisões explícitas; complemento de correção do ano pendente.
+ACCEPTED para as sete decisões explícitas registradas; PD-006/007/011 e outros complementos técnicos permanecem pendentes.
 
 ## Contexto e justificativa
 Respostas diretas do usuário na análise da PD-010 em 01/10/2026. Complementa ADR-005/007/009/010 e substitui suas ressalvas de ambiguidade somente nos pontos respondidos. Preserva justificativas históricas.
@@ -18,9 +18,9 @@ As decisões abaixo substituem as descrições anteriores que as tratavam como a
 - Prazos de convites e manifestações: fim exclusivo; instante do servidor igual ao vencimento já impede aceitar/recusar convite e registrar/alterar manifestação, conforme o prazo. Preservada a regra de lembrete imediato às 23h quando o aceite for elegível.
 
 ### Complemento ainda necessário
-A data da reunião é corrigível enquanto o processo está aberto, mas seu número agora incorpora o ano da ocorrência e é imutável. Falta decidir o comportamento de uma correção que mude o ano: preservar número original apesar da divergência; impedir a correção entre anos; ou outra regra explícita. Não renumerar por inferência. O catálogo concreto de eventos deverá ser conferido contra a distribuição aprovada antes do fechamento técnico da TASK-001.
+A data da reunião é corrigível enquanto o processo está aberto, mas seu número incorpora o ano da ocorrência e é imutável. Decisão explícita posterior: se a correção mudar o ano, preservar o número original, mesmo que o ano exibido no número diverja da data corrigida. Não renumerar, não reutilizar e não transferir o número. A divergência deve permanecer visível e auditada. O catálogo concreto de eventos deverá ser conferido contra a distribuição aprovada antes do fechamento técnico da TASK-001.
 
-PD-010: PARCIALMENTE DEFINIDA — seis decisões registradas; complemento sobre correção do ano pendente. TASK-001 permanece BLOCKED; PD-006/007/011 e ausência de Git não foram resolvidas nesta interação.
+PD-010: DEFINIDA quanto às sete decisões registradas, incluindo correção entre anos; TASK-001 permanece BLOCKED por PD-006/007/011 e contratos técnicos restantes.
 
 ## Rastreabilidade
 RF-001/002/003/004/008/009/014; RN-001/009/019/020/021/022/023; RNF-001/003/004/010; TASK-001/006/007/009/014/016/018. Nenhum software ou teste executado.
